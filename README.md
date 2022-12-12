@@ -1,5 +1,5 @@
 # simple-notes-app
-simple notes app made with html, css and javascript
+simple notes app made with html, css and javascript. The notes are stored in the web storage api.
 
 
 <img width="700" alt="Screenshot 2022-12-12 at 19 12 58" src="https://user-images.githubusercontent.com/70845953/207122496-7541ae5c-41c4-46c7-8905-27cd9d084a09.png">
