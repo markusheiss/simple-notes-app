@@ -1,0 +1,120 @@
+html {
+    font-size: 10px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f1f3f5;
+    font-family: 'Montserrat', sans-serif;
+    color: #343a40;
+}
+
+h1 {
+    text-align: center;
+}
+
+#notes-app {
+    padding: 1rem;
+    margin: 3rem auto;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    width: 800px;
+    border-radius: 10px;
+    background-color: #a61e4d;
+    box-shadow: 2px 2px 12px #adb5bd;
+    min-height: 800px;
+}
+
+#section-left {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#section-mid {
+    background-color: #f783ac;
+    border-radius: 6px;
+    padding: 1rem;
+    margin: 0 1rem 1rem 1rem;
+}
+
+#section-buttons {
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#notes-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    background-color: #f783ac;
+    border-radius: 6px;
+}
+
+.notes-body {
+    white-space: pre-wrap;
+    font-size: 1.6rem;
+    padding: 1rem;
+}
+
+.notes-edit {
+    display: flex;
+    flex-direction: column;
+}
+
+.notes-edit > label {
+    font-size: 1.8rem;
+    margin: 1rem 0;
+}
+
+.list-item {
+    cursor: pointer;
+    font-size: 1.6rem;
+    padding: 0.5rem;
+    border-bottom: 2px solid #a61e4d;
+}
+
+.active {
+    background-color: #ffdeeb;
+    border-radius: 6px;
+}
+
+.hidden {
+    display: none;
+}
+
+#edit-title,
+#edit-body {
+    border: none;
+    background-color: #ffdeeb;
+    padding: 1rem;
+    border-radius: 8px;
+    border: 3px solid #ffdeeb;
+}
+
+#edit-title:focus,
+#edit-body:focus {
+    outline: none;
+    border: 3px solid #a61e4d;
+}
+
+#edit-body {
+    height: 200px;
+    resize: none;
+}
+
+.btn {
+    border-radius: 6px;
+    background-color: white;
+    border: none;
+    padding: 1rem;
+    font-family: 'Montserrat';
+    font-size: 1.4rem;
+    background-color: #ffdeeb;
+}
+
+#btn-delete-note {
+    background-color: #e03131;
+}
